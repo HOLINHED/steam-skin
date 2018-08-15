@@ -994,40 +994,41 @@ a.home_marketing_message {
     margin: 0;
     border-radius: 4px !important;
 }
+
 .btn_grey_white_innerfade {
-    border-radius: 0;
-    color: #fff !important;
-    background: #3d3d3e !important;
+    border-radius: 4px !important;
+    color: rgb(230,230,230) !important;
+    background: rgb(73,73,73) !important;
 }
 .btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
-    border-radius: 0 !important;
-    color: #fff !important;
-    background: #3d3d3e !important;
+    border-radius: 4px !important;
+    color: rgb(230,230,230) !important;
+    background: rgb(85,85,85) !important;
 }
 .btn_grey_white_innerfade > span {
-    border-radius: 0 !important;
-    color: #fff !important;
-    background: #3d3d3e !important;
+    border-radius: 4px !important;
+    color: rgb(230,230,230) !important;
+    background: rgb(73,73,73) !important;
 }
 .btn_grey_white_innerfade:hover {
-    border-radius: 0 !important;
-    color: #fff !important;
-    background: #3d3d3e !important;
+    border-radius: 4px !important;
+    color: rgb(230,230,230) !important;
+    background: rgb(85,85,85) !important;
 }
 .btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
-    border-radius: 0 !important;
-    color: #fff !important;
-    background: #3d3d3e !important;
+    border-radius: 4px !important;
+    color: rgb(230,230,230) !important;
+    background: rgb(85,85,85) !important;
 }
 .btn_grey_white_innerfade > span:hover {
-    border-radius: 0 !important;
-    color: #fff !important;
-    background: #3d3d3e !important;
+    border-radius: 4px !important;
+    color: rgb(230,230,230) !important;
+    background: rgb(85,85,85) !important;
 }
 .btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
-    border-radius: 0 !important;
-    color: #fff !important;
-    background: #3d3d3e !important;
+    border-radius: 4px !important;
+    color: rgb(230,230,230) !important;
+    background: rgb(85,85,85) !important;
 }
 .followers {
     padding-left: 11px !important;
@@ -1674,19 +1675,6 @@ filter: none !important;
 .profile_header_actions {
     white-space: nowrap !important;
 }
-/*
-.btn_profile_action.btn_medium {
-    border-radius: 10px !important;
-    color: #fff !important;
-    padding: 0px !important;
-    display: inline-block !important;
-    text-decoration: none !important;
-    cursor: pointer !important;
-    background: #373f4f !important;
-    background: -webkit-linear-gradient( top, #7a8494 5%, #282f3d 95%) !important;
-    background: linear-gradient( to bottom, #7a8494 5%, #282f3d 95%) !important;
-}
-*/
 
 .btn_profile_action.btn_medium {
     border-radius: 5px;
@@ -4603,7 +4591,7 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 .btn_green_white_innerfade {
 	border-radius: 4px !important;
 	border: none;
-	padding: 1px;
+	padding: 0px;
 	display: inline-block;
 	cursor: pointer;
 	text-decoration: none !important;
