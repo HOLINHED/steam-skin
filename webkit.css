@@ -2664,12 +2664,25 @@ a.trigger, a.activetrigger {
     background-image: none !important;
     background-position: top left;
     background-repeat: no-repeat;
-    background-color: #282828 !important;
+	background-color: rgb(40,40,40) !important;
     border-radius: 3px;
     padding: 0 10px 11px 10px;
     margin-bottom: 12px;
     font-size: 13px;
     overflow: hidden;
+}
+
+.profile_customization_header {
+	border-radius: 4px !important;
+	width: 620px !important;
+	padding-left: 20px !important;
+	margin-left: -12px !important;
+	color: rgb(230,230,230) !important;
+	background: rgb(30,30,30) !important;
+}
+
+.item_showcase .showcase_slot_row, .trade_showcase .showcase_slot_row, .showcase_badges_icons, .showcase_notes, .screenshot_showcase_rightcol, .screenshot_showcase_primary .screenshot_showcase_screenshot, .myworkshop_showcase_header.guides {
+	margin-top: 8px !important;
 }
 
 .workshop_showcase_item img.workshop_showcase_item_image {
@@ -2680,6 +2693,10 @@ a.trigger, a.activetrigger {
     margin-right: 8px;
     display: block;
     border: nmne;
+}
+
+.showcase_stat.favoritegroup_inchat {
+	background: rgba(0,0,0,0) !important;
 }
 
 .guide_showcase_appinfo .workshop_showcase_app img {
