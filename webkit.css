@@ -2681,7 +2681,7 @@ a.trigger, a.activetrigger {
 	background: rgb(30,30,30) !important;
 }
 
-.item_showcase .showcase_slot_row, .trade_showcase .showcase_slot_row, .showcase_badges_icons, .showcase_notes, .screenshot_showcase_rightcol, .screenshot_showcase_primary .screenshot_showcase_screenshot, .myworkshop_showcase_header.guides {
+.item_showcase .showcase_slot_row, .trade_showcase .showcase_slot_row, .showcase_badges_icons, .showcase_notes, .screenshot_showcase_rightcol, .screenshot_showcase_primary .screenshot_showcase_screenshot, .myworkshop_showcase_header.guides, .myworkshop_showcase_header {
 	margin-top: 8px !important;
 }
 
@@ -2744,23 +2744,7 @@ a.trigger, a.activetrigger {
     height: 48px;
     box-shadow: none !important;
 }
-/*
-.game_info_achievements_badge .achievement_progress_bar_ctn {
-    width: auto;
-    display: block;
-    margin-bottom: 8px;
-}
-.achievement_progress_bar_ctn {
-    height: 10px !important;
-    padding: 0px !important;
-    width: 160px;
-    display: inline-block;
-    background-color: #222223;
-    border: 0px !important;
-    border-radius: 5px !important;
-    box-shadow: 0px !important;
-}
-*/
+
 .progress_bar {
 	height: 8px;
 	border-radius: 4px;
@@ -4547,7 +4531,7 @@ a.group_tab:hover {
 }
 
 input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_textarea_ctn {
-    background-color: rgba( 0, 0, 0, 0.2 );
+    background: rgb(24,24,25) !important;
     border: 0px !important;
     box-shadow: 0px !important;
     color: #C6D4DF;
@@ -4555,6 +4539,10 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
     outline: none;
     padding: 4px 6px;
     border-radius: 4px !important;
+}
+
+.rightbox_content_header {
+	border-radius: 4px 4px 0px 0px !important;
 }
 
 .btn_grey_black {
