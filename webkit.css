@@ -4545,6 +4545,13 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 	border-radius: 4px 4px 0px 0px !important;
 }
 
+.profile_background_current {
+	border-radius: 4px !important;
+	border: none !important;
+	color: rgb(187,200,211) !important;
+	background: rgb(24,24,25) !important;
+}
+
 .btn_grey_black {
 	border-radius: 4px !important;
 	border: none;
